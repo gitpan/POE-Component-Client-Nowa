@@ -1,0 +1,16 @@
+---
+irc:
+  servername: nowa.localhost
+  serverport: 16667
+  botname: '[nowa]'
+  nickname: woremacx
+  password: your-ircd-pass
+  mask: '*@*'
+  channel: '#nowa-my-timeline'
+
+nowa:
+  retry: 180
+  nowa_id: your-nowa-id
+  password: your-nowa-pass
+  api_pass: your-nowa-api-pass
+  greeting: 0
