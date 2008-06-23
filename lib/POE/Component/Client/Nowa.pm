@@ -3,7 +3,7 @@ package POE::Component::Client::Nowa;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw/Class::Accessor::Fast/;
 
@@ -51,6 +51,7 @@ sub poe__start {
             nowa_id  => $heap->{args}->{nowa_id},
             password => $heap->{args}->{password},
             api_pass => $heap->{args}->{api_pass},
+            encode_utf8 => 1,
         });
 
     $kernel->yield('attach');

@@ -1,4 +1,7 @@
 Revision history for Perl extension POE::Component::Client::Nowa
 
+0.02  Mon Jun 23 21:58:12 2008
+        - enabled encode_utf8 option
+
 0.01  Mon May 19 08:28:13 2008
         - initial version

@@ -21,4 +21,4 @@ requires:
   POE::Component::TSTP: 0
   WebService::Nowa: 0
   YAML: 0
-version: 0.01
+version: 0.02
